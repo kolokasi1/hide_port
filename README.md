@@ -17,5 +17,7 @@ D_PRELOAD=$(pwd)/hide_openat.so ./test1
 run the test2
 D_PRELOAD=$(pwd)/hide_write.so ./test2
 
-to create all the .so and executables run: make
+Before compiling, configure the openat_hide.c to show on the tcp file that is included in the files in this github, with the right path 
+of the folder that you are in, you can use this using the $pwd command. 
+to create all the .so and executables run: $make
 
